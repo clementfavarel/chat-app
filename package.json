@@ -1,18 +1,15 @@
 {
-  "name": "current-project",
+  "name": "chat-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Realtime chat app built with Node.js, Express and Socket.io",
+  "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "clementfavarel",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "^2.2.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.0"
   }
 }
